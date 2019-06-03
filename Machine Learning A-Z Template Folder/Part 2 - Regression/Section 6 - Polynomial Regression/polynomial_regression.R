@@ -28,6 +28,7 @@ dataset$Level4 = dataset$Level^4
 poly_reg = lm(formula = Salary ~ .,
               data = dataset)
 
+
 # Visualising the Linear Regression results
 # install.packages('ggplot2')
 library(ggplot2)
